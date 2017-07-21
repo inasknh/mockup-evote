@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Pemira UI - Bilik Suara</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/mdb.min.css">
+    <link rel="stylesheet" href="css/sweetalert.css">
+    <link rel="stylesheet" href="css/hover-min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/loginpemilih.css">
+</head>
+<body>
+    <nav class="navbar elegant-color">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-2">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand waves-effect waves-light text-yellow" href="#">E-VOTE PEMILIHAN RAYA IKM UI</a>
+            </div>
+
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-2">
+                
+            </div>
+        </div>
+    </nav>
+
+    <div class="container-fluid">
+        <div class="row text-center">
+            <div class="col-md-4 col-md-offset-4 padding-top-24">
+                <div class="panel panel-default">
+                    <div class="panel-header">
+                        <h5 class="card-title"><b>LOGIN PEMILIH</b></h5>                        
+                    </div>                    
+                    <form id="login-pemilih-form" method="POST">                                                    
+                        <div class="panel-body">
+                            <div class="alert alert-info" role="alert">
+                                <b>Data Anda aman <span class="glyphicon glyphicon-lock" aria-hidden="true"></span></b><br> Silakan login menggunakan akun JUITA Anda. <br> Kami tidak menyimpan password dan data pribadi Anda.
+                            </div>   
+                                                     
+                            <label for="username">USERNAME</label>
+                            <input type="text" name="username" id="username" required="required">                                
+                        
+                            <label for="password">PASSWORD</label>
+                            <input type="password" name="password" id="password" required="required">                                
+                        
+                            <label for="token">TOKEN</label><br>
+                            <span>4-digit token dari penjaga TPS</span>
+                            <input type="text" name="token" id="token" maxlength="4" required="required">                            
+                        </div>
+
+                        <button class="btn btn-default btn-lg btn-block reset-button-style btn-login waves-effect yellow-color"><b>LOGIN</b></button>
+                    </form>
+                </div>                            
+            </div>            
+        </div>
+    </div>   
+
+    <script src="js/jquery.min.js" defer="defer"></script>
+    <script src="js/bootstrap.min.js" defer="defer"></script>
+    <script src="js/sweetalert.min.js" defer="defer"></script>
+    <script src="js/mdb.min.js" defer="defer"></script>
+    <script src="js/script.js" defer="defer"></script>
+    <script src="js/loginpemilih.js" defer="defer"></script>
+</body>
+</html>

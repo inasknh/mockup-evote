@@ -1,0 +1,181 @@
+body
+{    
+    background-color: #DDD;
+}
+
+label
+{
+    color: #000 !important;
+    margin-bottom: 0 !important;
+}
+
+input
+{
+    text-align: center;
+    font-size: 2em !important;
+}
+
+hr.separator
+{    
+    border-top: 1px solid #888 !important;    
+}
+
+input[type=date]:focus:not([readonly]), 
+input[type=datetime-local]:focus:not([readonly]), 
+input[type=email]:focus:not([readonly]), 
+input[type=number]:focus:not([readonly]), 
+input[type=password]:focus:not([readonly]), 
+input[type=search-md]:focus:not([readonly]), 
+input[type=tel]:focus:not([readonly]), 
+input[type=text]:focus:not([readonly]), 
+input[type=time]:focus:not([readonly]), 
+input[type=url]:focus:not([readonly]), 
+textarea.materialize-textarea:focus:not([readonly])
+{
+    border-bottom: 1px solid #FFEA00;
+    box-shadow: 0 1px 0 0 #FFEA00;
+}
+
+.inline-block
+{
+    display: inline-block !important;
+}
+
+.border-box
+{
+    border: 1px solid #000;
+}
+
+.navbar
+{
+    margin-bottom: 0 !important;
+}
+
+.padding-top-24
+{
+    padding-top: 24px;
+}
+
+.padding-0
+{
+    padding: 0;
+}
+
+.padding-8
+{
+    padding: 8px;
+}
+
+.font-16
+{
+    font-size: 16px;
+}
+
+.font-24
+{
+    font-size: 24px;
+}
+
+.text-black
+{
+    color: #000 !important;
+}
+
+.text-white
+{
+    color: #FFF !important;
+}
+
+.text-yellow
+{
+    color: #FFEA00 !important;
+}
+
+.text-green
+{
+    color: #00E676 !important;
+}
+
+.text-red
+{
+    color: #FF1744 !important;
+}
+
+.text-bold
+{
+    font-weight: bold;
+}
+
+.yellow-color
+{
+    background-color: #FFEA00 !important;
+}
+
+.green-color
+{
+    background-color: #00E676 !important;
+}
+
+.dark-color
+{
+    background-color: #3E4551;
+}
+
+.middle-this
+{
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.waves-effect
+{
+    -webkit-transition: all .12s ease-out;
+    -moz-transition: all .12s ease-out;
+    -o-transition: all .12s ease-out;
+    -ms-transition: all .12s ease-out;
+    transition: all .12s ease-out;
+}
+
+.reset-button-style
+{
+    border-radius: 0;
+    box-shadow: none !important;
+    margin: 0 !important;
+}
+
+.reset-button-style:hover
+{
+    box-shadow: none;
+}
+
+.wrap
+{
+    word-wrap: break-word;
+    white-space: pre-wrap;
+}
+
+.label
+{
+    border-radius: 2px !important;
+    padding: 2px 4px !important;
+    font-size: 100%;
+}
+
+/* Sweet Alert */
+.sweet-alert h2
+{
+    font-size: 32px !important;
+}
+
+.sa-button-container .cancel
+{
+    background-color: #FF1744 !important;
+}
+
+.sa-button-container .confirm
+{
+    background-color: #00E676 !important;
+}

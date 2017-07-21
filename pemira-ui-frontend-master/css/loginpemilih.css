@@ -1,0 +1,12 @@
+.panel-header
+{
+    padding: 4px;
+    line-height: 48px;
+    /*background-color: #FFEA00;*/
+}
+
+.btn-login
+{
+    border-radius: 0 0 4px 4px;
+    color: #000;
+}

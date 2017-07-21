@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Pemira UI - Bilik Suara</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/mdb.min.css">
+    <link rel="stylesheet" href="css/hover-min.css">
+    <link rel="stylesheet" href="css/sweetalert.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/token.css">
+</head>
+<body>
+    <nav class="navbar elegant-color">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-2">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand waves-effect waves-light text-yellow" href="#">E-VOTE PEMILIHAN RAYA IKM UI</a>
+            </div>
+
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-2">
+                
+            </div>
+        </div>
+    </nav>
+
+    <div class="container-fluid">
+        <div class="row text-center">
+            <div class="col-md-9 padding-top-24">
+                <div id="data-pemilih-panel" class="panel panel-default">
+                    <div class="panel-header">
+                        <h5><b>DATA PEMILIH</b></h5>
+                        <span>Masukkan dan submit NPM pemilih untuk menampilkan data pemilih</span>
+
+
+                    </div>
+                    <div id="data-pemilih-body" class="panel-body hidden">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <img id="foto-pemilih" src="img/avatar.jpg" class="foto-siak" alt="foto mahasiswa">
+                            </div>
+                            <div class="col-md-8">
+                                <h5 id="nama-pemilih" class="text-capitalized"><b>JUNDI AHMAD ALWAN</b></h5>                                
+                                <table class="table text-left font-16">
+                                    <tr>
+                                        <td><b>NPM</b></td>
+                                        <td id="npm-pemilih">1306464114</td>                                        
+                                    </tr>
+                                    <tr>
+                                        <td><b>Fakultas</b></td>
+                                        <td id="fakultas-pemilih">Ilmu Komputer</td>                                        
+                                    </tr>
+                                    <tr>
+                                        <td><b>Jurusan</b></td>
+                                        <td id="jurusan-pemilih">Sistem Informasi</td>
+                                    </tr>                                    
+                                </table>
+
+                                <div class="text-left">
+                                    <span class="font-16"><b>Hak Suara</b></span><br>
+                                    <ul id="hak-pemilih" class="list-group">
+                                        
+                                    </ul>                                    
+                                </div>
+
+                                <!-- <div class="alert alert-info" role="alert">                                    
+                                    <h6>Token</h6>
+                                    <button id="btn-generate-token" class="btn btn-danger">Generate Token</button>                                                                    
+                                    <span id="token-pemilih" class="hidden">                                        
+                                    </span>                                        
+                                </div> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 padding-top-24">
+                <div class="panel panel-default">
+                    <div class="panel-header">
+                        <h5><b>PENJAGA TPS</b></h5>
+                    </div>
+                    <div class="panel-body">                        
+                        <p class="wrap"><b>muhammad.prakash32</b></p>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-header">
+                        <h5><b>NPM MAHASISWA</b></h5>
+                    </div>                    
+                    <form id="npm-form" action="" method="POST">                                                    
+                        <div class="panel-body">                                                                                
+                            <input type="text" name="npm" id="npm" maxlength="10" placeholder="Masukkan NPM" required="required">                            
+                        </div>
+
+                        <button class="btn btn-default btn-lg btn-block reset-button-style btn-get-data waves-effect yellow-color"><b>AMBIL DATA</b></button>
+                    </form>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-header">
+                        <h5><b>TOKEN GENERATOR</b></h5>
+                    </div>                    
+                    <form id="npm-form" action="" method="POST">                                                    
+                        <div class="panel-body">
+                            <span id="token-info" class="">Tekan tombol 'GENERATE TOKEN' setelah data pemilih sukes ditampilkan</span>
+                            <span id="user-pemilih" class="hidden">muhammad.gibran32</span><br>
+                            <span id="token-pemilih" class="hidden">7856</span>                            
+                        </div>
+
+                        <button id="btn-generate-token" class="btn btn-default btn-lg btn-block reset-button-style yellow-color hidden"><b>GENERATE TOKEN</b></button>
+                    </form>
+                </div>
+            </div>                        
+        </div>
+    </div>   
+
+    <script src="js/jquery.min.js" defer="defer"></script>
+    <script src="js/bootstrap.min.js" defer="defer"></script>
+    <script src="js/mdb.min.js" defer="defer"></script>
+    <script src="js/sweetalert.min.js" defer="defer"></script>
+    <script src="js/script.js" defer="defer"></script>
+    <script src="js/token.js" defer="defer"></script>
+</body>
+</html>

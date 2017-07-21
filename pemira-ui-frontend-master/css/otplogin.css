@@ -1,0 +1,10 @@
+#otp-qrcode img 
+{
+    display: inline-block !important;
+}
+
+.btn-authenticate
+{
+    border-radius: 0 0 4px 4px;
+    color: #000;
+}

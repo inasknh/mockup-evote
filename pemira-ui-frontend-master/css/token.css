@@ -1,0 +1,22 @@
+.btn-get-data, #btn-generate-token
+{
+    border-radius: 0 0 4px 4px !important;
+    color: #000 !important;
+}
+
+.foto-siak
+{
+    width: 300px;
+    height: 400px;
+}
+
+#data-pemilih-panel .panel-header
+{
+    margin-bottom: 12px;
+}
+
+#token-pemilih
+{
+    font-size: 36px;
+    font-weight: bold;
+}

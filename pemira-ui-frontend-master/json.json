@@ -1,0 +1,96 @@
+{
+    "status": "ok",
+    "npm": "1306409513",
+    "nama": "Muhammad Prakash Divy",
+    "prodi": "Ilmu Komputer",
+    "jenjang": "S1 Reguler",
+    "foto": "base64image",
+    "reason": "",
+    "relog": "",
+    "pemilihan": [
+        {
+            "id_pemilihan": "1",
+            "nama_pemilihan": "bem fasilkom ui & satu dua tiga",
+            "daftar_calon": [
+                {
+                    "no_urut": "1",
+                    "nama_calon": "Richard Henokh Kurniawan-Kevin Ega Pratama",
+                    "foto_calon": "img/sby.jpg"
+                },
+                {
+                    "no_urut": "2",
+                    "nama_calon": "Muhammad Gibran-Hasandi Patriawan",
+                    "foto_calon": "img/sby.jpg"
+                }
+            ]
+        },
+        {
+            "id_pemilihan": "2",
+            "nama_pemilihan": "dpm fasilkom",
+            "daftar_calon": [
+                {
+                    "no_urut": "1",
+                    "nama_calon": "Muhammad Firza Pratama",
+                    "foto_calon": "img/jundi.jpg"
+                },
+                {
+                    "no_urut": "2",
+                    "nama_calon": "Kristoferson Siahaan",
+                    "foto_calon": "img/jundi.jpg"
+                },
+                {
+                    "no_urut": "3",
+                    "nama_calon": "Sangadji Prabowo",
+                    "foto_calon": "img/jundi.jpg"
+                },
+                {
+                    "no_urut": "4",
+                    "nama_calon": "Fatia Kusuma Dewi",
+                    "foto_calon": "img/jundi.jpg"
+                },
+                {
+                    "no_urut": "5",
+                    "nama_calon": "Kevin Situmorang",
+                    "foto_calon": "img/jundi.jpg"
+                }
+            ]
+        },
+        {
+            "id_pemilihan": "3",
+            "nama_pemilihan": "bem ui",
+            "daftar_calon": [
+                {
+                    "no_urut": "1",
+                    "nama_calon": "Richard Henokh Kurniawan-Kevin Ega Pratama",
+                    "foto_calon": "img/sby.jpg"
+                },
+                {
+                    "no_urut": "2",
+                    "nama_calon": "Muhammad Gibran-Hasandi Patriawan",
+                    "foto_calon": "img/sby.jpg"
+                }
+            ]
+        },
+        {
+            "id_pemilihan": "4",
+            "nama_pemilihan": "dpm ui",
+            "daftar_calon": [
+                {
+                    "no_urut": "1",
+                    "nama_calon": "Muhammad Firza Pratama",
+                    "foto_calon": "img/jundi.jpg"
+                },
+                {
+                    "no_urut": "2",
+                    "nama_calon": "Kristoferson Siahaan",
+                    "foto_calon": "img/jundi.jpg"
+                },
+                {
+                    "no_urut": "3",
+                    "nama_calon": "Sangadji Prabowo",
+                    "foto_calon": "img/jundi.jpg"
+                }
+            ]
+        }
+    ]
+}
